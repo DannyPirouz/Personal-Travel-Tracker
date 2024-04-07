@@ -1,0 +1,26 @@
+{"flightsList": [
+    {
+        "date": "N/A",
+        "sittingSpot": "n/a",
+        "origin": "yvr",
+        "planeModel": "N/A",
+        "destination": "nyc",
+        "rating": 0,
+        "foodEaten": "N/A",
+        "title": "epic ny trip",
+        "airline": "N/A",
+        "hoursFlown": 0
+    },
+    {
+        "date": "N/A",
+        "sittingSpot": "n/a",
+        "origin": "yyc",
+        "planeModel": "N/A",
+        "destination": "las vegas",
+        "rating": 0,
+        "foodEaten": "N/A",
+        "title": "-1000 vegas",
+        "airline": "N/A",
+        "hoursFlown": 0
+    }
+]}

@@ -1,0 +1,26 @@
+{"flightsList": [
+    {
+        "date": "N/A",
+        "sittingSpot": "n/a",
+        "origin": "",
+        "planeModel": "N/A",
+        "destination": "",
+        "rating": 0,
+        "foodEaten": "N/A",
+        "title": "1",
+        "airline": "N/A",
+        "hoursFlown": 0
+    },
+    {
+        "date": "N/A",
+        "sittingSpot": "n/a",
+        "origin": "",
+        "planeModel": "N/A",
+        "destination": "",
+        "rating": 18,
+        "foodEaten": "N/A",
+        "title": "3",
+        "airline": "N/A",
+        "hoursFlown": 0
+    }
+]}

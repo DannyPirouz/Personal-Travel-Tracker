@@ -1,0 +1,26 @@
+{"flightsList": [
+  {
+    "date": "jan 18th",
+    "sittingSpot": "middle",
+    "origin": "vancouver",
+    "planeModel": "a320",
+    "destination": "new york city",
+    "rating": 19,
+    "foodEaten": "chicken",
+    "title": "ny trip",
+    "airline": "air canada",
+    "hoursFlown": 5
+  },
+  {
+    "date": "N/A",
+    "sittingSpot": "n/a",
+    "origin": "yyc",
+    "planeModel": "N/A",
+    "destination": "ams",
+    "rating": 6,
+    "foodEaten": "pasta",
+    "title": "europe",
+    "airline": "KLM",
+    "hoursFlown": 9.5
+  }
+]}
