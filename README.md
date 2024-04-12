@@ -71,22 +71,3 @@ Flight "Epic Europe Trip" Removed <br />
 All Flights Viewed <br />
 Flight "-$1000 Vegas" rating changed to: 6 <br />
 All Flights Viewed 
-
-## Phase 4: Task 3
-
-If I had more time to work on the project, I would refactor my design to include the Singleton Pattern. Right now, 
-I make references to flights that I need access to by a field I made in the Flight class called idNumber. With
-every new flight created, this idNumber increases by one and is assigned to the flight. So when I want to remove a
-flight, for example, I remove it based on this idNumber associated. The problem with my method currently is that it
-is not a very accepted approach because it is not good for testing purposes. This approach results in random passing
-or failing tests. For instance, sometimes the constructor test will pass while other times it might fail. I implemented
-better and different tests to ensure my tests will always pass; however, the Singleton Pattern approach would be
-much more effective.
-
-With the Singleton Pattern, I would have created the field "private static FlightsList singleton;" 
-in the FlightsList class. Then, I would create a private constructor that instantiates the flightsList field. I would 
-create a static method called getInstance() that returns singleton and also has a null checker. I would create 
-a getUniqueId() method that returns the unique id for that flight so everytime a new flight is created, the flight 
-would be given a unique id. This design pattern would make my code more clear, readable, and efficient. Testing 
-would also be normal as it would not result in random passing or failing tests. Overall, this would be the main design 
-structure I would change.
